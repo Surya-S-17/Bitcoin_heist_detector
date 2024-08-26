@@ -14,7 +14,7 @@ with open('pca.pkl', 'rb') as f:
     pca = pickle.load(f)
 
 # Streamlit app
-st.title("BitcoinHeist Multi-Classification with Deep Learning")
+st.title("BitcoinHeist Classification with Deep Learning")
 st.write("Input the data to classify the Bitcoin address:")
 
 # Create input fields for user inputs
